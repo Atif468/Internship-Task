@@ -1,0 +1,49 @@
+{
+  "categories": [
+    {
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": "cloud-accounts",
+          "name": "Cloud Accounts Status",
+          "text": "Currently 2 cloud accounts are connected and 2 are pending connection."
+        },
+        {
+          "id": "risk-assessment",
+          "name": "Risk Assessment Summary",
+          "text": "Total assessments: 8859. Passed: 7253, Failed: 889, Warnings: 681, Not Available: 36"
+        }
+      ]
+    },
+    {
+      "name": "CWPP Dashboard",
+      "widgets": [
+        {
+          "id": "namespace-alerts",
+          "name": "Namespace Alerts",
+          "text": "Currently monitoring 5 namespaces. No critical alerts detected."
+        },
+        {
+          "id": "workload-alerts",
+          "name": "Workload Status",
+          "text": "All workloads are running normally. No alerts to report."
+        }
+      ]
+    },
+    {
+      "name": "Registry Scan",
+      "widgets": [
+        {
+          "id": "risk-assessment",
+          "name": "Image Risk Status",
+          "text": "Found 1470 vulnerabilities: 9 Critical, 150 High Priority. Immediate attention required."
+        },
+        {
+          "id": "security-issues",
+          "name": "Container Security",
+          "text": "2 images scanned. Found critical security issues in 2 images. High-priority fixes needed."
+        }
+      ]
+    }
+  ]
+}
